@@ -1,4 +1,5 @@
 baseURL = 'https://villo88.github.io/hugo/' 
 languageCode = 'en-us'
-title = 'Ciao sono hugo'
+title = "Villo's workspace"
 theme = 'PaperMod'
+
