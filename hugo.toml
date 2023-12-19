@@ -1,4 +1,4 @@
-baseURL = 'https://VILLO88.github.io/hugo/' 
+baseURL = 'https://villo88.github.io/hugo/' 
 languageCode = 'en-us'
 title = 'M New Hugo Site'
 theme = 'PaperMod'
