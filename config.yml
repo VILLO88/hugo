@@ -1,0 +1,16 @@
+baseURL: "https://villo88.github.io/hugo/"
+title: Villo's workspace
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+
+
+params:
+  author: Me
+    # ShowReadingTime: true
+    #ShowShareButtons: true
+    #ShowPostNavLinks: true
+    #ShowBreadCrumbs: true
+
+
