@@ -1,16 +1,46 @@
 baseURL: "https://villo88.github.io/hugo/"
 title: Villo's workspace
-paginate: 5
+paginate: 20
 theme: PaperMod
 
 enableRobotsTXT: true
+buildDrafts: false
+buildFuture: true
+buildExpired: true
+pygmentsUseClasses: true
 
 
 params:
-  author: Me
-    # ShowReadingTime: true
-    #ShowShareButtons: true
-    #ShowPostNavLinks: true
-    #ShowBreadCrumbs: true
-
-
+  env: production
+  title: MyBlog
+  description: "Il mio personal blog"
+  keywords:
+    [
+      Blog,
+      Linux,
+      Elettronica,
+      Domotica,
+      Programmazione,
+    ]
+  author: Matteo Villani
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+menu:
+  main:
+    - identifier: Start Here
+      name: "Start Here"
+      url: /aboutme/
+      weight: 10
