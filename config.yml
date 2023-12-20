@@ -38,9 +38,19 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-menu:
-  main:
-    - identifier: Start Here
-      name: "Start Here"
-      url: /aboutme/
-      weight: 10
+  
+#menu:
+# main:
+#   - identifier: Start Here
+#     name: "Start Here"
+#     url: /aboutme/
+#     weight: 10
+#   - identifier: Elettronica
+#     name: "Elettronica"
+#     url: /elettronica/
+#     weight: 11
+#   - identifier: Posts
+#     name: "Posts"
+#     url: /posts/
+#     weight: 12
+
